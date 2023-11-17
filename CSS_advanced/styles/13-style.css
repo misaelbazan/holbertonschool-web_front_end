@@ -33,7 +33,7 @@ body {
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
 }
-a[href] {
+a:link {
   color: var(--text-color);
   text-decoration: none;
 }
