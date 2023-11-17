@@ -33,7 +33,7 @@ body {
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
 }
-a:not(:empty) {
+a[href:not(:empty)] {
   color: var(--text-color);
   text-decoration: none;
 }
@@ -44,7 +44,7 @@ a:hover {
   text-decoration: underline;
 }
 a:active{
-  color: var(--color-light-grey);
+  background-color: var(--color-light-grey);
 }
 .visually-hidden {
   display: none;
