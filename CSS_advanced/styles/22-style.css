@@ -163,7 +163,7 @@ ul.row {
 .footer ul {
   text-align: right;
 }
-div[data-section-theme ="dark"] {
+[data-section-theme ="dark"] {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
   background-color: var(--color-black);
