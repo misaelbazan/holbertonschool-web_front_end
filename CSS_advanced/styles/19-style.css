@@ -135,18 +135,18 @@ margin: var(--nav-item-margin);
 .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
-ul .row {
+ul.row {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 .col-1-3 {
-  width: 33.3%;
+  width: 33.33%;
   float: left;
   padding: 0.5rem;
 }
 .col-1-2 {
-  width: 50%;
+  width: 0.5;
   float: left;
   padding: 0.5rem;
 }
