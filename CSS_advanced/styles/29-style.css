@@ -207,7 +207,7 @@ margin: var(--nav-item-margin);
   display: block;
   padding: 0.5rem 1rem;
 }
-.nav .nav-link::before {
+.nav .nav-link:before {
   content: '';
   position: absolute;
   top: 0;
